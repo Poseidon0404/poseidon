@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity #2</title>
+</head>
+<style> 
+
+   h1 {text-align: center;}
+   p  {width: 75;}
+</style>
+<body>
+    
+    <h1>These are the steps to Push your github respository</h1>
+    <hr>
+     
+    <p>
+     First lets discuss what is git?
+     <br>
+     Git is a <dfn= title="This is free and open">free and open source distributed control system designed to handle</dfn>
+     <br>
+     everything from small to very large projects with speed and effciency.
+    </p>
+
+    <h2>Here are the steps to push your Git repository</h2>     
+    <pre><code>
+    
+        1. Open Git Bash.
+        
+        2. Navigate to the root directory of your project.
+
+        3. Create a folder specifically for your project
+         #mkdir <dfn>[webDev]</dfn>
+         
+            Output:
+            $ mkdir webDev
+            $ ls-ld webDev
+
+        4. git add README.md
+
+
+
+        5. $ git <mark>status</mark> 
+        <dfn>git status command displays the state of the working directory and the staging area.</dfn>
+       
+
+
+
+        5. $ git commit -m <mark>"first commit</mark> 
+        For projects that already have some code files written and ready to go, the initial commit usually includes all of those code files in one big chunk.
+
+
+
+        6. $ git branch <mark>-M main</mark> 
+        <dfn>A branch in Git is simply a lightweight movable pointer to one of these commits.</dfn> 
+
+
+        
+        7. $ git remote <mark>add origin</mark> <cite>https://github.com/Poseidon0404/poseidon</cite>
+        <dfn> git remote add command will create a new connection record to a remote repository</dfn>
+
+
+       
+        8. $ git push <mark>-u origin main</mark>   
+        <dfn>push origin is a git command that pushes a local branch(es) to a remote repository (origin).</dfn>
+    </code>
+    </pre>
+</body>
+</html>
