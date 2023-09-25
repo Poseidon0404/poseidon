@@ -1,0 +1,42 @@
+body{
+    background-color: cyan;
+}
+.h1{
+    text-align: center;
+    font-style: italic;
+    color: blue;
+    padding: 10px;
+}
+.mesina123{
+    height: 0%; 
+    letter-spacing: 2px;
+    line-height: 0%;
+}
+hr{
+    border: 1px solid white;
+    width: 95%;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-top: 40px;
+    line-height: 0%;
+}
+p{
+   font-weight: 500;
+}
+.silver{
+    color: silver;
+}
+.violet{
+    color: blueviolet;
+}
+.orange{
+    color: orangered;
+}
+.cutekosir{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
