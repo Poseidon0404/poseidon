@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="User" author="Charly March L. Mesina">
+    <title>User Form</title>
+    <link rel="stylesheet" type="text/css" href="Interactive_Form-Mesina.css">
+</head>
+<body>
+<div class="user-container">
+    <center><marquee behavior="slide" direction="left"><h1>User Form</h1></marquee></center>
+    <hr>
+    <form class="user-form" onsubmit="handleForm(event)" id="form">
+        <input type="text" placeholder="First Name"  id="firstName" name="firstName" required>
+        <input type="text" placeholder="Last Name"  id="lastName" name="lastName" required>       
+        <input type="email" placeholder="Email"  id="email" name="email" required>
+        <button onclick="handleForm(e)" class="submit">SUBMIT</button>
+    </form>
+	</div>
+</div>
+<script src="Interactive_Form-Mesina.js"></script>
+</body>
+</html>
